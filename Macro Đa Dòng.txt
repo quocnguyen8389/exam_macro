@@ -1,0 +1,7 @@
+ Macro Đa Dòng
+Đề bài: Viết macro KIEM_TRA(condition, message) in ra thông báo nếu condition sai:
+KIEM_TRA(a > 0, "a phai la so duong");
+ → Nếu a <= 0, in: [ERROR] a phai la so duong (File: main.c, Line: 10)
+Yêu cầu:
+Sử dụng #, __FILE__, __LINE__.
+Cho phép macro gồm nhiều dòng.
